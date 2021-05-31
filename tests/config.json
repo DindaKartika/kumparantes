@@ -1,0 +1,28 @@
+{
+  "app_name": "News Portal",
+  "app_version": "0.0.1",
+  "app_env": "dev",
+	"database": {
+		"mysql": {
+			"driver": "mysql",
+			"host": "127.0.0.1",
+			"user": "root",
+			"password": "",
+			"db_name": "kumparan_news_portal",
+			"port": 3306,
+			"debug": false,
+			"pool": {
+				"maxOpenConns": 100,
+				"maxIdleConns": 10,
+				"maxLifetime": 300
+			}
+		},
+		"redis": {
+			"driver": "redis",
+			"host": "127.0.0.1",
+			"password": "",
+			"db_number": 0,
+			"port": 6379
+		}
+	}
+}
